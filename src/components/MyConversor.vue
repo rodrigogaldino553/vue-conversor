@@ -28,9 +28,7 @@
         fetch(url).then(res=>{return res.json()})
           .then(json=>{
             let cotation = json[from_to].val
-            console.log(cotation)
-            console.log
-            this.coinB_value = 'R$'+(cotation+parseFloat(this.coinA_value)).toFixed(2)
+            this.coinB_value = 'R$'+(cotation * parseFloat(this.coinA_value)).toFixed(2)
           })
       }
     }
