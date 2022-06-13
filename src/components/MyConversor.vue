@@ -42,5 +42,12 @@
   max-width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+h2+input{
+  padding: 8px 14px;
+  border: 2px solid gray;
+  box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.2);
+  border-radius: 8px;
+  margin-right: 4px;
+}
 
 </style>
