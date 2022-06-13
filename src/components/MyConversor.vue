@@ -51,7 +51,7 @@ h2+input{
 }
 h2+input+input{
   padding: 8px 14px;
-  border: none:
+  border: none;
   border-radius: 8px;
   background: blue;
   color: white;
