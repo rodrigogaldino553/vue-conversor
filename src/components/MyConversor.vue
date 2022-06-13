@@ -44,10 +44,19 @@
 }
 h2+input{
   padding: 8px 14px;
-  border: 2px solid gray;
+  border: none;
   box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.2);
   border-radius: 8px;
   margin-right: 4px;
+}
+h2+input+input{
+  padding: 8px 14px;
+  border: none:
+  border-radius: 8px;
+  background: blue;
+  color: white;
+  text-weight: 600;
+  box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.2);
 }
 
 </style>
