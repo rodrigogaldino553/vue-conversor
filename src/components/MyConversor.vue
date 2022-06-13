@@ -1,7 +1,7 @@
 <template>
   <div class="my-conversor">
     <h2>{{coinA}} to {{coinB}}</h2>
-    <input type="text" v-model="coinA_value" v-bind:placeholder="coinA">
+    <input type="number" v-model="coinA_value" v-bind:placeholder="coinA">
     <input type="button" value="Convert" v-on:click="convert">
     <h2>{{coinB_value}}</h2>
   </div>
@@ -37,7 +37,9 @@
 
 <style scoped>
 .my-conversor{
+  text-align: start;
   padding: 20px;
+  max-width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
